@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello, Vue!"></HelloWorld>
+    <HelloWorld msg="Hello, Vue SSR hot updating!"></HelloWorld>
     <p @click="$store.commit('add')">{{ $store.state.count }}</p>
     <nav>
       <router-link to="/">index</router-link>
